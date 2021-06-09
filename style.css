@@ -1,0 +1,123 @@
+/* Slider_welcome to our... {font-family: 'Quattrocento Sans', sans-serif;} */
+/* Menu and Lorem...{font-family: 'Open Sans', sans-serif;} */
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+header {
+    background-color: #1d2126;
+    position: sticky;
+    top: 0;
+    z-index:10;
+}
+.row-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.logo {
+    display: flex;
+    align-items: center;
+    height: 80px;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: scroll;
+}
+.menu div {
+    color: #a4aead;
+    font-weight: 600;
+    font-size: 14px;
+    padding: 8px 10px;
+}
+.menu div:hover {
+    border: 2px solid #5a6068;
+    border-radius: 3px;
+}
+.menu div:first-child {
+    color: #23b7a3;
+    border: 2px solid #23b7a3;
+    border-radius: 3px;
+}
+.search {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.search form {
+    width: 195px;
+    height: 30px;
+    border: 2px solid #5a6068;
+    border-radius: 3px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+}
+.search input {
+    border: none;
+    background: transparent;
+    text-align: left;
+    padding: 0 0 0 8px;
+    color: #a4aead;
+}
+.search input:focus {
+    outline: none;
+}
+.search input::-webkit-input-placeholder {
+    color: #a4aead;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.search button {
+    background-image: url("Blog/magnifying_glass.png");
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #1d2126;
+    border: none;
+}
+.slider {
+    height: 660px;
+    background-image: url("Blog/picture.png");
+    background-repeat: no-repeat;
+    align-items: center;
+}
+.slider h1 {
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ffffff;
+    padding: 10px 0;
+}
+.slider p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #999aa7;
+    padding: 10px 0;
+}
+.slider button {
+    width: 124px;
+    height: 44px;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    color: #ebebed;
+    background: transparent;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    margin: 30px 11px 30px 0;
+}
+.slider button:hover {
+    background: #23b7a4;
+    border: none;
+}
+.center-left {
+    display: flex;
+    flex-direction: column;
+    height: 660px;
+    justify-content: center;
+}
