@@ -216,3 +216,47 @@ button:hover {
     text-align: center;
     margin: 40px 0;
 }
+.features img {
+    width: auto;
+    max-width: 100%;
+    opacity: 1;
+}
+.features {
+    color: #dcdfe1;
+}
+.footer p {
+    font-size: 14px;
+    color: white;
+    padding: 30px 0;
+}
+.twitter {
+    width: 48px;
+    height: 48px;
+    left: 0;
+    background-image: url("Blog/twitter_small.png");
+    background-repeat: no-repeat;
+}
+.facebook {
+    width: 48px;
+    height: 48px;
+    background-image: url("Blog/facebook_small.png");
+    background-repeat: no-repeat;
+}
+.skype {
+    width: 48px;
+    height: 48px;
+    background-image: url("Blog/skype.png");
+    background-repeat: no-repeat;
+}
+.Be {
+    width: 48px;
+    height: 48px;
+    background-image: url("Blog/Be_small.png");
+    background-repeat: no-repeat;
+}
+.in {
+    width: 48px;
+    height: 48px;
+    background-image: url("Blog/in.png");
+    background-repeat: no-repeat;
+}
